@@ -2,7 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <asp:UpdateProgress ID="UpdateProgress1" runat="server">
+    <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
+        
         <ProgressTemplate>
 
             <div class="loading">
