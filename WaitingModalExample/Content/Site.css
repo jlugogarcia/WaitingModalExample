@@ -42,7 +42,7 @@ textarea {
 }
 
 .loading {
-    position: absolute;
+    position: fixed;  /*So the user still see the effect even if scrolls down*/
     background-color: #FAFAFA;
     z-index: 2147483647 !important;
     opacity: 0.8;
